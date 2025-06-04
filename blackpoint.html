@@ -1,0 +1,443 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   POWERCORE
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-aqua text-gray-900">
+  <!-- Navbar -->
+   <nav class="bg-white w-full shhadow">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+
+      <!-- Mobile menu button (hamburger) -->
+      <div class="flex items-center lg:hidden">
+        <button id="menu-button" class="text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300">
+          <!-- Hamburger icon -->
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Left nav links -->
+      <div class="hidden lg:flex space-x-6 text-gray-700">
+        <a href="#" class="hover:text-gray-900">Home</a>
+        <a href="#" class="hover:text-gray-900">About</a>
+        <a href="#" class="hover:text-gray-900">Services</a>
+      </div>
+
+      <!-- Logo centered -->
+      <div class="text-lg font-bold text-gray-900 absolute left-1/2 transform -translate-x-1/2 lg:static lg:transform-none">
+        POWERCORE
+      </div>
+
+      <!-- Right nav links -->
+      <div class="hidden lg:flex space-x-6 text-gray-700">
+        <a href="#" class="hover:text-gray-900">Blog</a>
+        <a href="#" class="hover:text-gray-900">Contact</a>
+        <a href="#" class="hover:text-gray-900">Login</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Dropdown Menu -->
+  <div id="mobile-menu" class="lg:hidden hidden px-4 pb-4 space-y-2">
+    <a href="#" class="block text-gray-700 hover:text-gray-900">Home</a>
+    <a href="#" class="block text-gray-700 hover:text-gray-900">About</a>
+    <a href="#" class="block text-gray-700 hover:text-gray-900">Services</a>
+    <a href="#" class="block text-gray-700 hover:text-gray-900">Blog</a>
+    <a href="#" class="block text-gray-700 hover:text-gray-900">Contact</a>
+    <a href="#" class="block text-gray-700 hover:text-gray-900">Login</a>
+  </div>
+</nav>
+
+  <!-- Hero Section --> 
+<section class="bg-green-100 py-32 rounded-3xl h-50 mx-4 md:mx-20 mt-10 shadow-md relative overflow-hidden">
+
+  <div class="absolute top-0 left-0 w-32 h-32 bg-no-repeat bg-contain" style="background-image: url('images/man-removebg-preview.png');"></div>
+  <div class="absolute bottom-0 right-0 w-32 h-32 bg-no-repeat bg-contain" style="background-image: url('images/woman-removebg-preview.png');"></div>
+
+  <!-- Main Content -->
+  <div class="max-w-4xl mx-auto text-center px-4 z-10 relative">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+      Need to look <br>
+      <span class="text-gray-800">Healthy and Strong</span>
+    </h1>
+    <p class="mt-4 text-gray-700 text-lg max-w-2xl mx-auto">
+      Connect with licensed trainers, coaches, and nutritionists to support your journey.
+    </p>
+    <button class="mt-6 bg-gray-800 text-white px-6 py-3 rounded-full hover:bg-gray-700 transition">
+      Get Started
+    </button>
+  </div>
+</section>
+  <!-- We Help You Prioritize Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-16 flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+   <div class="max-w-md">
+    <h2 class="font-semibold text-[#0F2F3F] text-lg md:text-xl mb-4">
+     We Help You
+     <br/>
+     Prioritize Your
+     <br/>
+     fitness goals
+    </h2>
+    <p class="text-gray-700 text-sm md:text-base mb-6">
+     Discover personalized strategies and support tailored to your unique needs.
+    </p>
+    <button class="bg-[#0F2F3F] text-white text-sm font-semibold rounded-full px-6 py-2 hover:bg-[#0a1c26] transition">
+     Learn More
+    </button>
+   </div>
+   <div class="relative w-48 h-48 md:w-56 md:h-56 rounded-3xl overflow-hidden bg-[#90EE90] flex justify-center items-center">
+    <img alt="Illustration of a person holding a heart symbolizing care and support" class="rounded-3xl" height="160" src="images/dumbbell.png" width="160"/>
+    <div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-20 h-20 bg-white rounded-full">
+    </div>
+   </div>
+  </section>
+  <!-- Your Path to Well-being Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-20 text-center">
+   <h3 class="font-semibold text-[#0F2F3F] text-lg md:text-xl mb-2">
+    Your Path to Awesomeness
+   </h3>
+
+<p class="text-gray-700 text-sm md:text-base max-w-xl mx-auto">
+    Find the right people, tools and guidance to support your fitness journey.
+   </p>
+  </section>
+  <!-- Cards Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+   <!-- Mindfulness & Meditation Card -->
+   <div class="bg-[#90EE90] rounded-3xl p-6 flex flex-col justify-between">
+    <div>
+     <div class="flex items-center mb-4">
+      <img alt="Heart icon representing mindfulness and meditation" class="mr-3" height="40" src="https://storage.googleapis.com/a1aa/image/9bf8e7f2-251f-4278-ea08-b74926c04a0b.jpg" width="40"/>
+      <h4 class="font-semibold text-[#0F2F3F] text-base">
+       Training &amp; Exercises
+      </h4>
+     </div>
+     <p class="text-gray-700 text-sm mb-6">
+      Practice studies exercises and calisthenic techniques to build strength and improve your physique.
+     </p>
+    </div>
+    <button class="bg-[#0F2F3F] text-white text-sm font-semibold rounded-full px-6 py-2 self-start hover:bg-[#0a1c26] transition">
+     Learn More
+    </button>
+   </div>
+   <!-- One-on-One Therapy Card -->
+   <div class="bg-white rounded-3xl p-6 border border-gray-200 flex flex-col justify-between">
+    <div>
+     <div class="flex items-center mb-4">
+      <img alt="Chat icon representing one-on-one therapy" class="mr-3" height="40" src="https://storage.googleapis.com/a1aa/image/d659edfa-0b29-4a25-7ca3-e4ba97bc45ca.jpg" width="40"/>
+      <h4 class="font-semibold text-[#0F2F3F] text-base">
+       One-on-One Training Sessions
+      </h4>
+     </div>
+     <p class="text-gray-700 text-sm mb-6">
+      Connect with licensed trainers for personalized guidance and spotting sessions.
+     </p>
+    </div>
+    <button class="bg-[#0F2F3F] text-white text-sm font-semibold rounded-full px-6 py-2 self-start hover:bg-[#0a1c26] transition">
+     Learn More
+    </button>
+   </div>
+  </section>
+  <!-- Wellness Coaching Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-20 flex flex-col md:flex-row items-center md:items-start md:justify-between gap-8">
+   <div class="max-w-lg">
+    <h3 class="font-semibold text-[#0F2F3F] text-lg md:text-xl mb-4">
+     Wellness Coaching
+    </h3>
+    <p class="text-gray-700 text-sm md:text-base mb-6">
+     Work with experienced wellness coaches to develop healthy habits and achieve your goals.
+    </p>
+    <button class="bg-[#0F2F3F] text-white text-sm font-semibold rounded-full px-6 py-2 hover:bg-[#0a1c26] transition">
+     Get Started
+    </button>
+   </div>
+   <div class="relative w-48 h-48 md:w-56 md:h-56 rounded-3xl overflow-hidden bg-white flex justify-center items-center">
+    <img alt="Illustration of a person coaching another person with heart and star decorations" class="rounded-3xl" height="200" src="images/rope training.jpg" width="200"/>
+   </div>
+  </section>
+  <!-- What Our Clients Are Saying Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-20">
+   <h3 class="font-semibold text-[#0F2F3F] text-lg md:text-xl mb-8 text-center">
+    What Our Clients Are Saying
+   </h3>
+   <div class="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0 justify-center">
+    <div class="bg-[#90EE90] rounded-3xl p-6 max-w-md">
+     <p class="text-gray-900 text-sm md:text-base mb-4">
+      "Powercore has transformed my approach to Physical health. The personalized support and resources are invaluable."
+     </p>
+     <div class="flex items-center space-x-4">
+      <img alt="Profile picture of client 1" class="rounded-full" height="48" src="https://storage.googleapis.com/a1aa/image/c88e1d16-03d6-4c38-c035-e61b9ef0ee18.jpg" width="48"/>
+      <div>
+       <p class="font-semibold text-[#0F2F3F] text-sm">
+
+Alex Mutinda
+       </p>
+       <p class="text-gray-700 text-xs">
+        New York, NY
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="bg-[#0F2F3F] rounded-3xl p-6 max-w-md text-white">
+     <p class="text-sm md:text-base mb-4">
+      "The wellness coaching helped me build habits that truly improved my life. Highly recommend Powercore!"
+     </p>
+     <div class="flex items-center space-x-4">
+      <img alt="Profile picture of client 2" class="rounded-full border-2 border-white" height="48" src="https://storage.googleapis.com/a1aa/image/261b022a-3949-4098-9eb7-36bb3e222c52.jpg" width="48"/>
+      <div>
+       <p class="font-semibold text-white text-sm">
+        Martin Lawrence
+       </p>
+       <p class="text-gray-300 text-xs">
+        South Africa, SA
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Logos Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-20 flex flex-wrap justify-center gap-8">
+     <h3 class="font-semibold text-[#0F2F3F] text-lg md:text-xl mb-8 text-center">
+    Partners
+   </h3>
+   <img alt="Logo 1" class="h-10" height="40" src="images/adidas logo.png" width="100"/>
+   <img alt="Logo 2" class="h-10" height="40" src="images/beef logo.png" width="100"/>
+   <img alt="Logo 3" class="h-10" height="40" src="images/creatine_molecule-removebg-preview.png" width="100"/>
+   <img alt="Logo 4" class="h-10" height="40" src="images/nike logo.png" width="100"/>
+   <img alt="Logo 5" class="h-10" height="40" src="images/healthy foodlogo.png" width="100"/>
+  </section>
+  <!-- Resources for Your Well-being and training Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-20 text-center">
+   <h3 class="font-semibold text-[#0F2F3F] text-lg md:text-xl mb-8">
+    Resources for Your Well-being and training
+   </h3>
+   <div class="flex flex-col md:flex-row justify-center gap-8 max-w-5xl mx-auto">
+    <div class="bg-white rounded-3xl p-6 shadow-md max-w-xs">
+     <h4 class="font-semibold text-[#0F2F3F] text-base mb-2">
+      Articles &amp; Guides
+     </h4>
+     <p class="text-gray-700 text-sm mb-4">
+      Explore expert-written articles and guides on fitness topics.
+     </p>
+     <button class="bg-[#0F2F3F] text-white text-sm font-semibold rounded-full px-6 py-2 hover:bg-[#0a1c26] transition">
+      Explore
+     </button>
+    </div>
+    <div class="bg-white rounded-3xl p-6 shadow-md max-w-xs">
+     <h4 class="font-semibold text-[#0F2F3F] text-base mb-2">
+      Nutrition Resources
+     </h4>
+     <p class="text-gray-700 text-sm mb-4">
+      Access guided nutritional foods and suppliments to consume .
+     </p>
+     <button class="bg-[#90EE90] text-black text-sm font-semibold rounded-full px-6 py-2 hover:bg-[#0a1c26] transition">
+      Explore
+     </button>
+    </div>
+    <div class="bg-white rounded-3xl p-6 shadow-md max-w-xs">
+     <h4 class="font-semibold text-[#0F2F3F] text-base mb-2">
+      Wellness Workshops
+     </h4>
+     <p class="text-gray-700 text-sm mb-4">
+      Join workshops to learn new skills and connect with others.
+     </p>
+     <button class="bg-[#FCA5A5] text-[#0F2F3F] text-sm font-semibold rounded-full px-6 py-2 hover:bg-[#f87171] transition">
+      Explore
+     </button>
+    </div>
+   </div>
+  </section>
+  <!-- You're Not Alone Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-20 flex flex-col md:flex-row items-center md:items-start md:justify-between gap-8">
+   <div class="max-w-lg">
+    <h3 class="font-semibold text-[#0F2F3F] text-lg md:text-xl mb-4">
+     You're Not Alone on This Journey
+    </h3>
+    <p class="text-gray-700 text-sm md:text-base mb-6">
+     Connect with a community that understands and supports you every step of the way.
+    </p>
+    <button class="bg-[#0F2F3F] text-white text-sm font-semibold rounded-full px-6 py-2 hover:bg-[#0a1c26] transition">
+     Join Community
+    </button>
+   </div>
+
+<div class="relative w-48 h-48 md:w-56 md:h-56 rounded-3xl overflow-hidden bg-white flex justify-center items-center">
+    <img alt="Illustration of diverse smiling faces and abstract shapes representing community support" class="rounded-3xl" height="120" src="images/girlsgroup.png" width="300"/>
+    
+   </div>
+  </section>
+  <!-- Frequently Asked Questions Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-20">
+   <h3 class="font-semibold text-[#0F2F3F] text-lg md:text-xl mb-8 text-center">
+    Frequently Asked Questions
+   </h3>
+   <div class="flex flex-col md:flex-row justify-center gap-8 max-w-5xl mx-auto">
+    <div class="bg-[#90EE90] rounded-3xl p-6 max-w-md">
+     <img alt="Illustration of flowers in a smiling yellow vase" class="mb-6" height="48" src="https://storage.googleapis.com/a1aa/image/855f1435-deb5-4d61-47f9-41dc5ba655e9.jpg" width="48"/>
+     <div class="space-y-4">
+      <details class="bg-white rounded-lg p-4 cursor-pointer">
+       <summary class="font-semibold text-[#0F2F3F] text-sm md:text-base">
+        What services do you offer?
+       </summary>
+       <p class="text-gray-700 text-sm mt-2">
+        Powercore offers necessary coaching, guidance and nutritional assistance and more.
+       </p>
+      </details>
+      <details class="bg-white rounded-lg p-4 cursor-pointer">
+       <summary class="font-semibold text-[#0F2F3F] text-sm md:text-base">
+        How can I get started?
+       </summary>
+       <p class="text-gray-700 text-sm mt-2">
+        Simply click the "Get Started" button and follow the prompts.
+       </p>
+      </details>
+      <details class="bg-white rounded-lg p-4 cursor-pointer">
+       <summary class="font-semibold text-[#0F2F3F] text-sm md:text-base">
+        Is my information confidential?
+       </summary>
+       <p class="text-gray-700 text-sm mt-2">
+        Yes, we prioritize your privacy and confidentiality at all times.
+       </p>
+      </details>
+    <div class="bg-white rounded-3xl p-6 max-w-md shadow-md">
+     <details class="border-b border-gray-200 pb-4 mb-4 cursor-pointer">
+      <summary class="font-semibold text-[#0F2F3F] text-sm md:text-base">
+       What are your hours of operation?
+      </summary>
+      <p class="text-gray-700 text-sm mt-2">
+       Our support team is available Monday through Friday, 6am to 6pm.
+      </p>
+     </details>
+     <details class="border-b border-gray-200 pb-4 mb-4 cursor-pointer">
+      <summary class="font-semibold text-[#0F2F3F] text-sm md:text-base">
+       Do you offer virtual sessions?
+      </summary>
+      <p class="text-gray-700 text-sm mt-2">
+       Yes, all our services can be accessed online from anywhere.
+      </p>
+     </details>
+     <details class="cursor-pointer">
+      <summary class="font-semibold text-[#0F2F3F] text-sm md:text-base">
+       How do I contact support?
+      </summary>
+      <p class="text-gray-700 text-sm mt-2">
+       You can reach us via the contact form or by phone during business hours.
+      </p>
+     </details>
+    </div>
+   </div>
+  </section>
+  <!-- Support Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-20 grid grid-cols-1 md:grid-cols-2 gap-12">
+   <div>
+    <h4 class="font-semibold text-[#0F2F3F] text-lg mb-4">
+     Email Us Directly
+    </h4>
+    <p class="text-gray-700 text-sm mb-2">
+     support@Powercore.com
+    </p>
+    <p class="text-gray-700 text-sm mb-4">
+     +254 794 734 533
+    </p>
+    <div class="flex space-x-4 text-[#0F2F3F] text-xl">
+
+<a aria-label="Facebook" class="hover:text-gray-600" href="#">
+      <i class="fab fa-facebook-square">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-gray-600" href="#">
+      <i class="fab fa-twitter-square">
+      </i>
+     </a>
+     <a aria-label="Instagram" class="hover:text-gray-600" href="#">
+      <i class="fab fa-instagram-square">
+      </i>
+     </a>
+    </div>
+   </div>
+   <div>
+    <h4 class="font-semibold text-[#0F2F3F] text-lg mb-4">
+     Send Us a Message
+    </h4>
+    <form class="flex flex-col space-y-4">
+     <input class="border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#0F2F3F]" placeholder="Name" required="" type="text"/>
+     <input class="border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#0F2F3F]" placeholder="Email" required="" type="email"/>
+     <textarea class="border border-gray-300 rounded-lg px-4 py-2 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-[#0a1c26]" placeholder="Message" required="" rows="4"></textarea>
+     <button class="bg-[#0F2F3F] text-white text-sm font-semibold rounded-full px-6 py-2 hover:bg-[#0a1c26] transition" type="submit">
+      Send Message
+     </button>
+    </form>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="max-w-7xl mx-auto px-6 mt-20 mb-12 grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#ffffff] rounded-3xl py-12 text-black">
+   <div class="space-y-2">
+    <h5 class="font-semibold text-lg">
+     Powercore
+    </h5>
+    <a class="block text-sm hover:underline" href="#">
+     Home
+    </a>
+    <a class="block text-sm hover:underline" href="#">
+     About
+    </a>
+    <a class="block text-sm hover:underline" href="#">
+     Services
+    </a>
+    <a class="block text-sm hover:underline" href="#">
+     Blog
+    </a>
+    <a class="block text-sm hover:underline" href="#">
+     Contact
+    </a>
+   </div>
+   <div class="space-y-2">
+    <h5 class="font-semibold text-lg">
+     Support
+    </h5>
+    <a class="block text-sm hover:underline" href="#">
+     Help Center
+    </a>
+    <a class="block text-sm hover:underline" href="#">
+     Privacy Policy
+    </a>
+    <a class="block text-sm hover:underline" href="#">
+     Terms of Service
+    </a>
+    <a class="block text-sm hover:underline" href="#">
+     Accessibility
+    </a>
+   </div>
+   <div class="relative rounded-3xl bg-[#90EE90] p-6 flex flex-col justify-center items-start">
+    <h5 class="font-semibold text-lg mb-4">
+     Find Support, Discipline, and Growth.
+    </h5>
+    <img alt="Decorative footer illustration with abstract shapes and smiling faces" class="rounded-3xl" height="160" src="images/4468.jpg" width="160"/>
+   </div>
+  </footer>
+  <script>
+    const menuButton = document.getElementById('menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
