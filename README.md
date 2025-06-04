@@ -1,4 +1,4 @@
-This file contains HTML, CSS and JAVASCRIPT. the file was made using inline css by the use of Tailwindcss and other external images.
+This file contains HTML, CSS and JAVASCRIPT. the file was made by the use of Tailwindcss and other external images.
 
 ## 🎨 Color System
 
